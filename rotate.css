@@ -11,6 +11,7 @@
 
 .actual-cube{
     perspective: 800px;
+    perspective-origin: 50% 100px;
     height: 300px;
     width: 300px;
 }
@@ -19,7 +20,6 @@
     height:300px;
     width:300px;
     position: absolute;
-    box-shadow: 0px 0px 10px rgb(160, 155, 155);
     border : 1px solid black;
 }
 
@@ -32,7 +32,7 @@
     position: absolute;
     width: 300px;
     transform-style: preserve-3d;
-    animation: spin 45s infinite linear;
+    animation: spin 30s infinite linear;
 }
 
 .image-front{
